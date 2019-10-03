@@ -4,8 +4,15 @@
     box-sizing: border-box;
     font-family: 'lemongrass-caps', sans-serif;
 }
+header {
+    width: 90%;
+    background-color: rgba(223, 97, 74, 0.6);
+    position: fixed;
+    top: 0;
+    height: 100px;
+}
 nav {
-    justify-self: end;
+    justify-self: center;
     font-size: 1.5em;
 }
 #home {
