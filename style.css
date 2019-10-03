@@ -2,18 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'lemongrass-caps', sans-serif;
+    font-family: 'lemongrass-script', sans-serif;
 }
 body {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 } 
 header {
-    width: 90%;
+    width: 100%;
     background-color: rgba(223, 97, 74, 0.6);
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 35px;
 }
 nav {
     justify-self: center;
@@ -22,12 +22,41 @@ nav ul li {
     display: inline;
     margin: 10px;
 }
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}
 ul {
     display: flex;
     justify-content: center;
 }
 #home {
+    min-height: 100vh;
+    max-height: 100vh;
     background-image: url(pictures/Kassav_Main_Picture.jpg);
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 4fr;
+    justify-content: center;
+    grid-template-rows: 50px 110px 30px 4fr;
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* This is what makes the background image rescale based
+        on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+        while the background image is loading */
+    background-color: #464646;
+}
+#logo {
+    grid-row: 2 / 3;
+    justify-self: center;
+}
+/*#Logo*/ img {
+    max-width: 35%;
+}
+#subline {
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5em;
 }
