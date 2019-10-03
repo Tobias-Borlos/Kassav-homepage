@@ -95,12 +95,6 @@ img {
     justify-self: left;
     align-self: center;
 }
-#horizontal {
-    width: 200px;
-    border-top: 1px solid red;
-    top: 50px;
-    left: 250px;
-}
 hr {
     height: 2px;
     color:white;
@@ -116,4 +110,9 @@ h2 {
     justify-self: center;
     align-self: center;
     grid-column: 2 / 4;
+}
+#Gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
