@@ -10,7 +10,7 @@ body {
 } 
 header {
     width: 100%;
-    background-color: rgba(223, 97, 74, 0.6);
+    background-color: rgba(223, 97, 74, 0.9);
     position: fixed;
     top: 0;
     height: 35px;
@@ -47,11 +47,49 @@ ul {
         while the background image is loading */
     background-color: #464646;
 }
+#Media {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 6fr 55px 55px 6fr;
+    grid-template-rows: 80px 1fr 1fr;
+    background-color: #6AA392; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#70766D, #6AA392); /* Standard syntax (must be last) */
+    padding: 40px;
+}
+#Gallery {
+    display: grid;
+    grid-template-columns: 6fr 55px 55px 6fr;
+    grid-template-rows: 80px 1fr 1fr;
+    background-color: #6AA392; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#6AA392, #FEDC7B); /* Standard syntax (must be last) */
+    padding: 40px;
+}
+.gallery_images {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.gallery_images img {
+    max-width: 100%;
+}
+#big {
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
+#high {
+    grid-row: 3 / 5;
+}
 #logo {
     grid-row: 2 / 3;
     justify-self: center;
 }
-img {
+#home img {
     max-width: 35%;
 }
 #subline {
@@ -60,15 +98,6 @@ img {
     align-self: center;
     font-size: 1.5em;
     color: white;
-}
-#Media {
-    min-height: 100vh;
-    max-height: 100vh;
-    display: grid;
-    grid-template-columns: 6fr 55px 55px 6fr;
-    grid-template-rows: 120px 1fr 1fr;
-    background-color: #6AA392; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#70766D, #6AA392); /* Standard syntax (must be last) */
 }
 #video1 {
     grid-column: 1 / 2;
@@ -110,9 +139,4 @@ h2 {
     justify-self: center;
     align-self: center;
     grid-column: 2 / 4;
-}
-#Gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
