@@ -47,6 +47,7 @@ ul {
         while the background image is loading */
     background-color: #464646;
 }
+
 #logo {
     grid-row: 2 / 3;
     justify-self: center;
@@ -59,4 +60,29 @@ ul {
     justify-self: center;
     align-self: center;
     font-size: 1.5em;
+    color: white;
+}
+
+#Media {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 6fr;
+    grid-template-rows: 40px 1fr 1fr;
+}
+
+#video1 {
+
+}
+
+#video2 {
+    
+}
+
+#video3 {
+    
+}
+
+#video4 {
+    
 }
