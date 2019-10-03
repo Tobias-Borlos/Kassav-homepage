@@ -8,25 +8,26 @@ body {
     width: 90%;
     margin: 0 auto;
 } 
-img {
-    max-width: 100%;
-    }
 header {
     width: 90%;
     background-color: rgba(223, 97, 74, 0.6);
     position: fixed;
     top: 0;
-    height: 100px;
+    height: 50px;
 }
 nav {
     justify-self: center;
 }
 nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin: 10px;
+}
+ul {
+    display: flex;
+    justify-content: center;
 }
 #home {
-    min-height: 100vh;
+    background-image: url(pictures/Kassav_Main_Picture.jpg);
     display: grid;
     grid-template-rows: 1fr 2fr 1fr 4fr;
 }
