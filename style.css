@@ -52,7 +52,7 @@ ul {
     grid-row: 2 / 3;
     justify-self: center;
 }
-/*#Logo*/ img {
+img {
     max-width: 35%;
 }
 #subline {
