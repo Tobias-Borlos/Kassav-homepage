@@ -47,7 +47,7 @@ ul {
         while the background image is loading */
     background-color: #464646;
 }
-#Media {
+#videos {
     min-height: 100vh;
     max-height: 100vh;
     display: grid;
@@ -57,7 +57,7 @@ ul {
     background-image: linear-gradient(#70766D, #6AA392); /* Standard syntax (must be last) */
     padding: 40px;
 }
-#Gallery {
+#gallery {
     display: grid;
     grid-template-columns: 6fr 55px 55px 6fr;
     grid-template-rows: 80px 1fr 1fr;
@@ -83,6 +83,7 @@ ul {
     grid-row: 2 / 4;
 }
 #high {
+    grid-column: 1 / 2;
     grid-row: 3 / 5;
 }
 #logo {
