@@ -49,16 +49,14 @@ ul {
     background-color: #464646;
 }
 #videos {
-    min-height: 100vh;
     display: grid;
     grid-template-columns: 6fr 55px 55px 6fr;
-    grid-template-rows: 80px 1fr 1fr;
+    grid-template-rows: 80px 275px 30px 275px 30px;
     background-color: #6AA392; /* For browsers that do not support gradients */
     background-image: linear-gradient(#70766D, #6AA392); /* Standard syntax (must be last) */
     padding: 40px;
 }
 #about {
-    min-height: 100vh;
     display: grid;
     grid-template-columns: 6fr 55px 55px 6fr;
     grid-template-rows: 80px 1fr;
@@ -204,6 +202,14 @@ ul {
     justify-self: right;
     align-self: center;
 }
+#video1_text {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: right;
+    align-self: flex-end;
+    margin-right: 85px;
+    margin-top: 10px;
+}
 #video2 {
     margin-top: 50px;
     grid-column: 4 / 5;
@@ -211,19 +217,39 @@ ul {
     justify-self: left;
     align-self: center;
 }
+#video2_text {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    align-self: flex-end;
+    margin-top: 10px;
+}
 #video3 {
     margin-top: 50px;
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     justify-self: right;
     align-self: center;
+}
+#video3_text {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    justify-self: right;
+    align-self: flex-end;
+    margin-right: 161px;
+    margin-top: 10px;
 }
 #video4 {
     margin-top: 50px;
     grid-column: 4 / 5;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     justify-self: left;
     align-self: center;
+}
+#video4_text {
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+    align-self: flex-end;
+    margin-top: 10px;
 }
 hr {
     height: 2px;
@@ -251,6 +277,9 @@ h3 {
 p {
     color: white;
     font-family: mr-eaves-xl-modern, sans-serif;
+}
+#videos p {
+    font-size: 1.5em;
 }
 a:link,  a:visited {
     color: #FEDC7B; 
