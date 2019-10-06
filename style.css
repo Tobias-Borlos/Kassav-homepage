@@ -138,7 +138,6 @@ ul {
     font-weight: 200;
 }
 #years {
-    min-height: 100vh;
     display: grid;
     grid-template-columns: 6fr 75px 75px 6fr;
     grid-template-rows: 80px 1fr 270px;
