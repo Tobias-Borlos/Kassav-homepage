@@ -66,6 +66,7 @@ ul {
 }
 #about img {
     max-width: 90%;
+    min-width: 390px;
     grid-column: 2/3;
     justify-self: right;
     align-self: flex-end;
@@ -134,21 +135,13 @@ ul {
     font-size: 1.5em;
     color: white;
     font-family: 'lemongrass-script', sans-serif;
-}
-#Media {
-    min-height: 100vh;
-    max-height: 100vh;
-    display: grid;
-    grid-template-columns: 6fr 1fr 1fr 6fr;
-    grid-template-rows: 70px 1fr 1fr;
-    background-color: #6AA392; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#70766D, #6AA392); /* Standard syntax (must be last) */
+    font-weight: 200;
 }
 #years {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 6fr 75px 75px 6fr;
-    grid-template-rows: 80px 1fr 1fr;
+    grid-template-rows: 80px 1fr 270px;
     background-color: #6AA392; /* For browsers that do not support gradients */
     background-image: linear-gradient(#F79A71, #DF614A); /* Standard syntax (must be last) */
     padding: 40px;
@@ -186,6 +179,29 @@ ul {
     padding-left: 10px;
     padding-right: 10px;
     border-bottom: white, 1px;
+}
+#newsletter {
+    display: grid;
+    grid-template-columns: 6fr 75px 75px 6fr;
+    grid-template-rows: 80px 1fr 1fr 1fr;
+    background-color: #DF614A; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#DF614A, #A97F6B); /* Standard syntax (must be last) */
+    padding: 40px;
+}
+#newsletter h4 {
+    grid-area: 3 / 1 / 4 / 5;
+    justify-self: center;
+    text-align: center;
+}
+input:first-of-type {
+    width: 300px;
+}
+form {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    justify-self: center;
+    text-align: center;
+    line-height: 1.2em;
 }
 #headline {
     grid-column: 2 / 4;
@@ -267,6 +283,7 @@ h2 {
     align-self: center;
     grid-column: 2 / 4;
     font-family: 'lemongrass-script', sans-serif;
+    font-weight: 200;
 }
 h3 {
     font-family: mr-eaves-xl-modern, sans-serif;
@@ -292,4 +309,7 @@ nav a:link, nav a:visited {
     text-decoration: none;
     font-family: 'lemongrass-script', sans-serif;
     font-weight: 200;
+}
+form input{
+    color: black;
 }
