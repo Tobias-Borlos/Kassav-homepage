@@ -312,3 +312,36 @@ nav a:link, nav a:visited {
 form input{
     color: black;
 }
+#contact {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 6fr;
+    grid-template-rows: 80px 50px 1fr;
+    background-color: #6AA392; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#A97F6B, #6AA392); /* Standard syntax (must be last) */    
+}
+#contact_stuff {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
+    grid-template-rows: 80px 50px 1fr;
+}
+#contact img {
+    max-width: 50%;
+}
+#footer {
+    display: grid;
+    height: 150px;;
+    grid-template-rows: 3fr 3fr 1fr;
+}
+.icons {
+text-align: center; 
+}
+#footer img{
+max-width: 5%;
+}
+
+#footer p {
+    color: black;
+    text-align: center;
+}
