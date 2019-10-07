@@ -316,16 +316,15 @@ form input{
 #contact {
     display: grid;
     grid-template-columns: 6fr 1fr 1fr 6fr;
-    grid-template-rows: 80px 50px 1fr;
+    grid-template-rows: 80px 50px 500px;
     background-color: #6AA392; /* For browsers that do not support gradients */
     background-image: linear-gradient(#A97F6B, #6AA392); /* Standard syntax (must be last) */    
 }
 #contact_stuff {
     display: grid;
-    grid-template-columns: 3fr 2fr 2fr 2fr 3frf;
-    grid-template-rows: 1fr;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     grid-column: 1 / 5;
+    grid-template-columns: 100px 100px 100px 100px 100px;
 }
 #contact img {
     max-width: 50%;
