@@ -291,6 +291,10 @@ h3 {
     font-size: 1.8em;
     line-height: 1.5;
 }
+h5 {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
 p {
     color: white;
     font-family: mr-eaves-xl-modern, sans-serif;
@@ -324,7 +328,9 @@ form input{
     display: grid;
     grid-row: 3 / 4;
     grid-column: 1 / 5;
-    grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #contact img {
     max-width: 50%;
@@ -344,9 +350,18 @@ text-align: center;
 }
 #footer img{
 max-width: 5%;
+margin: 20px;
 }
 
 #footer p {
     color: black;
     text-align: center;
+}
+#contact_stuff ul p:nth-child(2) {
+    padding-bottom: 7px;
+}
+#contact_stuff img:last-child {
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 400px
 }
