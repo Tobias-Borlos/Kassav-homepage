@@ -344,13 +344,15 @@ form input{
     display: grid;
     height: 150px;;
     grid-template-rows: 3fr 3fr 1fr;
+    margin-bottom: 10px;
+
 }
 .icons {
 text-align: center; 
 }
 #footer img{
 max-width: 5%;
-margin: 20px;
+margin: 15px;
 }
 
 #footer p {
