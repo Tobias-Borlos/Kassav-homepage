@@ -367,3 +367,27 @@ margin: 15px;
     justify-self: flex-end;
     width: 400px
 }
+.gallery_images #big:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #high:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #gallery1:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #gallery2:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #gallery3:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #gallery4:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #gallery5:hover img  {
+    opacity: 0.5;
+}
+.gallery_images #gallery6:hover img  {
+    opacity: 0.5;
+}
