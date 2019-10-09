@@ -31,8 +31,16 @@
     </header>
     <section id="home">
         <img src="pictures/Kassav_Logo.png" alt="band name logo" id="logo">
-        <h1 id="subline">The creator of the fast carnival <a href="pictures/Tobias.mp3" type="audio/mp3">zouk</a> style
+        <h1 id="subline">The creator of the fast carnival <button class="preview-button">zouk</button> style
         </h1>
+        <audio src="pictures/zouk.mp3" id="zouk-preview" type="audio/mpeg"></audio>
+        <script>
+            document.querySelector('.preview-button').addEventListener("click", function() {
+                myAudio = document.querySelector("#zouk-preview");
+                myAudio.paused ? myAudio.play() : myAudio.pause();
+            });
+        
+        </script>
     </section>
 
     <section id="videos">
