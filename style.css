@@ -409,3 +409,19 @@ button {
 button:hover {
     cursor: pointer;
 }
+table {
+    border-collapse: collapse;
+    grid-column: 1 / 5;
+    /* display: inline-block; */
+    justify-self: center;
+    width: 820px;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+tr:nth-child(even) {background-color: rgba(106, 163, 146, 0.8);}
+tr:nth-child(odd) {background-color: rgb(106, 163, 146);}
+
+td {
+    padding-left: 20px;
+}
+6aa392
