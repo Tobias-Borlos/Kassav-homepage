@@ -429,7 +429,7 @@ td {
 .arrow {
     grid-row: 4 / 5;
     justify-self: center;
-    width: 13%;
-    margin-left: 400px;
+    width: 200px;
+    margin-left: 480px;
     margin-top: 5px;
 }
