@@ -37,7 +37,7 @@ ul {
     background-image: url(pictures/Kassav_Main_Picture.jpg);
     display: grid;
     justify-content: center;
-    grid-template-rows: 50px 110px 40px 4fr;
+    grid-template-rows: 50px auto 40px 4fr;
     background-position: center center;
     /* Background image doesn't tile */
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ ul {
     justify-self: center;
 }
 #home img {
-    max-width: 25%;
+    max-width: 27%;
 }
 #subline {
     grid-row: 3 / 4;
@@ -135,7 +135,6 @@ ul {
     color: white;
     font-family: 'lemongrass-script', sans-serif;
     font-weight: 200;
-    margin-top: 10px;
 }
 #years {
     display: grid;
@@ -431,6 +430,6 @@ td {
     grid-row: 4 / 5;
     justify-self: right;
     width: 13%;
-    margin-right: 335px;
+    margin-right: 25vw;
     margin-top: 5px;
 }
