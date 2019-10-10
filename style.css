@@ -428,8 +428,8 @@ td {
 }
 .arrow {
     grid-row: 4 / 5;
-    justify-self: right;
+    justify-self: center;
     width: 13%;
-    margin-right: 25vw;
+    margin-left: 400px;
     margin-top: 5px;
 }
