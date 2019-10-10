@@ -65,8 +65,7 @@ ul {
     padding: 40px;
 }
 #about img {
-    max-width: 90%;
-    min-width: 390px;
+    max-width: 97%;
     grid-column: 2/3;
     justify-self: right;
     align-self: flex-end;
@@ -88,7 +87,7 @@ ul {
     display: grid;
     grid-column: 1/5;
     grid-row: 2/3;
-    grid-template-columns: 100px 50% 30% 100px;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
 }
 
 #Gallery {
@@ -111,7 +110,7 @@ ul {
     margin-top: 50px;
 }
 .gallery_images img {
-    max-width: 100%;
+    width: 100%;
 }
 #big {
     grid-column: 2 / 4;
@@ -417,6 +416,7 @@ table {
     /* display: inline-block; */
     justify-self: center;
     width: 820px;
+    height: 200px;
     margin-top: 40px;
     padding-left: 10px;
 }
